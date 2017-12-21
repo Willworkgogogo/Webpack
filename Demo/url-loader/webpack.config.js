@@ -15,7 +15,7 @@ module.exports = {
             },
             {
                 test: /\.(jpg|png)$/,
-                loaders: 'url-loader?limit=8192&name=image/[name].[ext]'
+                loaders: 'url-loader?publicPath=/dist/&limit=8192&name=image/[name].[ext]'
             },
             // {
             //     // 阿里图标
@@ -24,7 +24,7 @@ module.exports = {
             // }
             {
                 test: /\.(eot|svg|ttf|woff|woff2)\w*/,
-                loader: 'file-loader?outputPath=font/'
+                loader: 'file-loader?&outputPath=font/'
             }
         ]
     }
