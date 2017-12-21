@@ -18,5 +18,11 @@
   "homepage": "https://github.com/Willworkgogogo/Webpack#readme",
   "dependencies": {
     "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.6",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2"
   }
 }

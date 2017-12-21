@@ -1,0 +1,6 @@
+.bground{
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    background: url(./image/dog.jpg) center no-repeat;
+}
